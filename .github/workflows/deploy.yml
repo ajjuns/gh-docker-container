@@ -4,6 +4,8 @@ on:
     branches:
       - main
       - dev
+  workflow_dispatch:
+    
 env:
   CACHE_KEY: node-deps
   MONGODB_DB_NAME: gha-demo
